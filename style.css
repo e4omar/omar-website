@@ -386,7 +386,7 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content:left;
   gap: 0.5rem;
 }
 
@@ -476,4 +476,28 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+
+/* Temp */
+#projects .experience-details-container {
+  display: none;
+}
+
+.Temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  height: 80vh;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.Under-dev{
+  font-size: 2rem;
 }
