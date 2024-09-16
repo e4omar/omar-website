@@ -191,6 +191,18 @@ section {
     width: 400px;
     margin: auto 0;
   }
+
+  #profile .section__pic-container {
+    background: linear-gradient(to bottom, #212020, grey); 
+    /* background: radial-gradient(circle, black 30%, grey 70%, black);  */
+    border-radius: 50%;
+  }
+  
+  #profile .about-pic {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
   
   .section__text {
     align-self: center;
@@ -299,11 +311,7 @@ section {
   .about-details-container {
     display: flex;
   }
-  
-  .about-pic {
-    border-radius: 2rem;
-  }
-              
+         
   .arrow {
     position: absolute;
     right: -5rem;
@@ -324,11 +332,28 @@ section {
     gap: 4rem;
     height: 80%;
   }
+
+  .about-pic {
+    /* border-radius: 2rem; */
+  }
+       
   
   .section__pic-container {
     height: 400px;
     width: 400px;
     margin: auto 0;
+  }
+
+  #about .section__pic-container {
+    background: linear-gradient(to bottom, #212020, grey); 
+    background: radial-gradient(circle, black 30%, grey 70%, black); /* Custom gradient */
+    border-radius: 50%;
+  }
+  
+  #about .about-pic {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
   }
   
 
