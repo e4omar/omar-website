@@ -334,7 +334,7 @@ section {
   }
 
   .about-pic {
-    /* border-radius: 2rem; */
+    border-radius: 2rem;
   }
        
   
@@ -346,15 +346,11 @@ section {
 
   #about .section__pic-container {
     background: linear-gradient(to bottom, #212020, grey); 
-    background: radial-gradient(circle, black 30%, grey 70%, black); /* Custom gradient */
-    border-radius: 50%;
+    background: radial-gradient( rgb(32, 32, 32)30%, rgb(75, 73, 73) 60%, grey); /* Custom gradient */
+    background: radial-gradient(circle, rgb(171, 169, 169)30%, rgb(244, 243, 243) 60%, rgb(197, 194, 194)); /* Custom gradient */
+    border-radius: 10%; 
   }
   
-  #about .about-pic {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-  }
   
 
 
